@@ -1,9 +1,11 @@
 package com.keepintouch.main.model.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
-@Table(name = "posts")
+@Table(name = "post")
+@Data
 public class Post {
 
     @Id
